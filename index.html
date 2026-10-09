@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="choose-level">
+            <h1>Chọn màn chơi</h1>
+            <button id="easy-btn">Màn 1</button>
+            <button id="medium-btn">Màn 2</button>
+            <button id="hard-btn">Màn 3</button>
+        </section>
+
+        <section class="game-board hidden">
+            <h1>Màn chơi</h1>
+            <p>Điểm: <span id="score">0</span></p>
+            <p>Kỉ lục: <span id="best">0</span></p>
+            <div id="board"></div>
+            <p id="message">Nhấn Bắt đầu hoặc phím Space</p>
+            <button id="start-btn">Bắt đầu</button>
+            <button id="back-btn">Chọn lại màn</button>
+        </section>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
